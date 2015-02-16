@@ -1,0 +1,19 @@
+# Virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ss]cripts
+
+
+#Temp files
+*.swp
+
+#Don't check in precompiled files
+*.pyc
+
+#Don't check in keys
+*.key
+*.pub
+*.pem
+
