@@ -11,9 +11,15 @@
 
 #Don't check in precompiled files
 *.pyc
+__pycache__
 
 #Don't check in keys
 *.key
 *.pub
 *.pem
 
+#Ignore IDE & Test files
+.idea
+
+#ignore osx file
+.DS_Store
