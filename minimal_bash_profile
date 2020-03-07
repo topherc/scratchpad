@@ -16,11 +16,14 @@ export HISTTIMEFORMAT="%d/%m/%y %T - "
 
 alias x='exit'
 alias c='clear'
+alias tm='tmux new-session \; split-window -h \; split-window -v \; attach'
 
 # Quick Edits
 alias vb='vi ~/.bash_profile;source ~/.bash_profile;'
+alias sb='source ~/.bash_profile'
 
 #virtualenv related shortcurts
 alias act=". ./bin/activate"
 alias deact="deactivate"
+alias pipup="pip install --upgrade pip"
 
