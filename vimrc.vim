@@ -91,12 +91,12 @@ set cmdheight=1
 set previewheight=40
 
 " ======== STATUS LINE =============
-let &statusline = ''
-let &statusline .= 'Buf ID:%3n   '        "Buffer Number
-let &statusline .= 'File:%<%f   '       "filename
-let &statusline .= 'Flags:%m%r%h%w   '   "Modified Flag, Readonly Flag, Preview flag
-let &statusline .= 'Pos:%l,%c%V     '     "Line, Column, Virtual Column
-let &statusline .= 'File:%4P'         "Percent through file of the displayed window
+" let &statusline = ''
+" let &statusline .= 'Buf ID:%3n   '        "Buffer Number
+" let &statusline .= 'File:%<%f   '       "filename
+" let &statusline .= 'Flags:%m%r%h%w   '   "Modified Flag, Readonly Flag, Preview flag
+" let &statusline .= 'Pos:%l,%c%V     '     "Line, Column, Virtual Column
+" let &statusline .= 'File:%4P'         "Percent through file of the displayed window
 
 
 " Show History in command mode 
@@ -122,8 +122,8 @@ map  j.
 "======== COLORS & Syntax Highlighting ========
 "Link http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim
 filetype on
-syntax enable
-syntax on
+" syntax enable
+" syntax on
 filetype plugin on
 
 
